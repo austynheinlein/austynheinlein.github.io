@@ -365,58 +365,36 @@ a.worklink {
 .contactme {
   width: 100%;
 }
+.letsconnect {
+  background: #c6b4af;
+  font-size: 25px;
+}
 .contactinfo {
-  background: grey;
+  background-image: url(about/trees.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.emailform {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
-  width: 23em;
-  padding: 20px;
-  margin: 5em 8em;
 }
-p.heart {
-  margin: 0;
-  padding-bottom: 10px;
+p.connecting {
   text-align: center;
+  font-size: 25px;
+  margin: 35px;
+  padding: 50px;
   color: #3a3a3a;
-  font-size: 20px;
+  background: rgba(255, 255, 255, 0.85);
 }
-input[type=text]{
-  padding: 10px;
+@media screen and (max-width: 700px) {
+  p.connecting {
+    padding: 38px;
+  }
 }
-form {
-  display: flex;
-  flex-direction: column;
-}
-.formname {
-  padding-top: 10px;
-  margin: 0;
-}
-.formbtns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-input[class=formbtn]:hover {
-  cursor: pointer;
-}
-input[class=formbtn]{
-  border: 1px solid #3a3a3a;
-  padding: 8px;
-  font-size: 15px;
+a.email {
   color: #3a3a3a;
-  margin: 10px;
-  width: 80px;
-  text-align: center;
+  font-weight: bold;
 }
 
 /* ------------------------------------------- */
