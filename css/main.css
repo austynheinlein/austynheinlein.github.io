@@ -4,6 +4,9 @@
 body {
   margin: 0;
 }
+*:focus {
+  outline: none;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -229,7 +232,9 @@ a.cooplink, a.umlink{
 .connect:hover {
   background: #c68973;
 }
-
+a.connect:link {
+  color: #3a3a3a;
+}
 /* CLIENTS -------------------------------------- */
 .work {
   display: flex;
@@ -350,6 +355,70 @@ a.worklink {
 
   }
 }
+/* contact ---------------------------------- */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactme {
+  width: 100%;
+}
+.contactinfo {
+  background: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 23em;
+  padding: 20px;
+  margin: 5em 8em;
+}
+p.heart {
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 20px;
+}
+input[type=text]{
+  padding: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.formname {
+  padding-top: 10px;
+  margin: 0;
+}
+.formbtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+input[class=formbtn]:hover {
+  cursor: pointer;
+}
+input[class=formbtn]{
+  border: 1px solid #3a3a3a;
+  padding: 8px;
+  font-size: 15px;
+  color: #3a3a3a;
+  margin: 10px;
+  width: 80px;
+  text-align: center;
+}
+
 /* ------------------------------------------- */
 @media screen and (min-width: 865px) {
   .header {
