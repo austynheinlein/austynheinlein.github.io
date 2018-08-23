@@ -191,6 +191,7 @@ a.cooplink, a.umlink{
   height: 300px;
   margin: 0;
   border-top: 30px solid #3a3a3a;
+
 }
 .title3 {
   background: #ae7561;
@@ -271,7 +272,7 @@ h2 {
   background: #747a5d;
   margin: 0;
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: normal;
 }
 /* about -----------------------------------  */
@@ -281,11 +282,12 @@ h2 {
 .aboutsection {
   width: 100%;
   background: #3a3a3a;
+  border-top: 30px solid #3a3a3a;
 }
 h2.aboutaust {
   padding: 30px;
-  font-size: 20px;
-  background: #3a3a3a;
+  font-size: 25px;
+  background: #604c4c;
 }
 .austyn {
   display: flex;
@@ -361,6 +363,7 @@ a.worklink {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 30px solid #3a3a3a;
 }
 .contactme {
   width: 100%;
