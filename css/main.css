@@ -122,7 +122,55 @@ main {
   font-size: 20px;
   color: white;
 }
-
+.devcontent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.market {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  background: #c4bc6b;
+}
+.siteinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  height: 500px;
+}
+.devlogo {
+  padding: 30px;
+}
+.sitepic {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+img.siteimg {
+  width: auto;
+  height: 500px;
+}
+.sitelinks {
+  display: flex;
+  flex-direction: column;
+}
+.siteref {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #3a3a3a;
+  text-align: center;
+  background: #e8de88;
+}
+.siteref:hover {
+  background: white;
+}
 /* creative work --------------------------- */
 .section2 {
   display: flex;
